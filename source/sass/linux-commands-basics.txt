@@ -1,0 +1,71 @@
+﻿/ (refere-se ao diretório raiz no servidor)
+./ (refere-se ao diretório em que você se encontra)
+../ (refere-se ao diretório pai do que você se encontra)
+
+pwd (mostra qual é o diretório em que você se encontra -- dá o caminho completo)
+
+ls (lista todos os arquivos do seu diretório atual)
+ls -al (lista todos os arquivos + informações)
+ls -alR (lista todos os arquivos + informações em todos os subdiretórios)
+ls -alR | more (lista todos os arquivos + informações em todos os subdiretórios, criando uma pausa)
+ls -alR > resultado.txt (lista todos os arquivos + informações em todos os subdiretórios, mas envia todas as informações para um arquivo ao invés de mostrar na tela)
+ls *.html (lista todos os arquivos que terminam com .html)
+ls -al home/usr/guto/ (lista todos os arquivos + informações de /home/usr/guto)
+
+cd (muda para um novo diretório)
+cd imagens (muda para o diretório imagens)
+cd / (muda para o diretório raiz)
+cd /home/usr/imagens (muda para o diretório /home/usr/imagens)
+cd .. (volta um diretório)
+
+
+
+Criando, movendo, copiando e apagando diretórios
+
+mkdir [nomedodiretório] (cria um novo diretório)
+
+ls -d */ (lista todos os subdiretórios dentro do diretório atual)
+
+cp -r [nomedodiretório] [novo nomedediretório] (copia um diretório e todos os seus arquivos/subdiretórios)
+
+rmdir [nomedodiretório] (apaga um diretório se estiver vazio)
+rm -r [nomedodiretório] (remove um diretório e todos seus arquivos)
+
+Pesquisando arquivos e diretórios:
+
+find / -name [arquivo] -print (procura em todo servidor por um arquivo)
+find . -name [arquivo] -print (procura por um arquivo começando pelo diretório atual)
+find / -name [nomedodiretório] -type d -print (procure no servidor inteiro por um diretório)
+
+locate [arquivo] (procura em todo servidor por um arquivo em um banco de dados com todos os arquivos do sistema, renovado uma vez por dia: é bem mais eficiente que o find)
+
+grep [texto] [nomedoarquivo] (procura por um texto dentro de um arquivo)
+
+sed s/[textoantigo]/[novotexto]/g [nomedoarquivo] (faz uma varredura no arquivo e troca todas as ocorrências do [textoantigo] por [novotexto])
+
+ 
+
+Permissões para arquivos e diretórios
+
+Existem três tipos de permissões para arquivos: ler, escrever e executar. Além disso, você pode definir permissões em três níveis: para o dono do arquivo, para o grupo de usuários e para todo mundo. O comando chmod seguido por três números é usado para mudar as permissões. O primeiro é a permissão para o dono, o segundo para o grupo e o terceiro para todos. Veja a seguir como os níveis de permissão são representados:
+
+0 = sem permissão
+1 = somente executar
+2 = somente escrever
+3 = escrever e executar
+4 = somente leitura
+5 = leitura e executar
+6 = ler e escrever
+7 = ler, escrever e executar
+
+
+
+Permissões de arquivos mais usadas:
+
+chmod 604 [arquivo] (permissão mínima para arquivos HTML www)
+chmod 705 [nomedodiretório] (permissão mínima para diretórios www)
+chmod 755 [arquivo] (permissão mínima para scripts & programas www)
+chmod 606 [arquivo] (permissão para arquivos de dados usados por scripts)
+chmod 703 [nomedodiretório] (permissão somente para escrita para FTP público para carregar arquivos)
+
+https://www.nulledzip.download/layerslider-v6-8-2-a-responsive-wordpress-slider-plugin/
