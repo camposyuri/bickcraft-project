@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="450b07de-94c7-43a6-a039-a69580965131" name="dev-test" url="http://192.168.0.253">
-        <fileTransfer host="192.168.0.253" port="22" rootFolder="/home/dev-test/www" accessType="SFTP">
+        <fileTransfer host="192.168.0.253" port="22" rootFolder="/home/dev-test/www/wp-content/themes/bikcraft" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
