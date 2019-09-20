@@ -6,8 +6,20 @@ $brightsun: #fec63e;
 $black: #000000;
 $white: #FFFFFF;
 
+
 html {
   margin-top: 0 !important;
   padding: 0;
   scroll-behavior: smooth;
 }
+
+.bg-yellow {
+  background-color: $brightsun;
+}
+
+.color-black {
+  color: $black;
+}
+
+
+@import "header";
