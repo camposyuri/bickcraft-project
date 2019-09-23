@@ -21,16 +21,16 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav m-auto text-center mt-3 mt-md-0">
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase color-black" href="<?php echo get_site_url();?>/sobre" title="Sobre">Sobre</a>
+                        <a class="nav-link text-uppercase" href="<?php echo get_site_url();?>/sobre" title="Sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase color-black" href="<?php echo get_site_url();?>/produtos" title="Produtos">Produtos</a>
+                        <a class="nav-link text-uppercase" href="<?php echo get_site_url();?>/produtos" title="Produtos">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase color-black" href="<?php echo get_site_url();?>/portfolio" title="Portfólio">Portfólio</a>
+                        <a class="nav-link text-uppercase" href="<?php echo get_site_url();?>/portfolio" title="Portfólio">Portfólio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase color-black" href="<?php echo get_site_url();?>/contato" title="Contato">Contato</a>
+                        <a class="nav-link text-uppercase" href="<?php echo get_site_url();?>/contato" title="Contato">Contato</a>
                     </li>
                 </ul>
             </div>

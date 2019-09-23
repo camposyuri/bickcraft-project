@@ -13,6 +13,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
 .bg-yellow {
   background-color: $brightsun;
 }
@@ -29,5 +34,14 @@ html {
   color: $brightsun;
 }
 
+.border-yellow {
+  border-color: $brightsun;
+}
+
+.border-black {
+  border-color: $black;
+}
 
 @import "header";
+
+@import "home";

@@ -11,4 +11,15 @@ header {
     box-shadow: 0 0 0 0 !important;
   }
 
+  .nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all .6s ease-in-out;
+    @extend .color-black;
+
+    &:hover {
+      color: #FFFFFF;
+      transition: all .6s ease-in-out;
+    }
+  }
 }
