@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-md fixed-top bg-yellow">
         <div class="container py-2 py-md-0">
             <a class="navbar-brand" href="<?php echo get_site_url();?>" title="Bikcraft">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/logo.png" class="img-fluid" alt="Bikcraft" title="Bikcraft">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/logo.png" class="img-fluid ml-md-5" alt="Bikcraft" title="Bikcraft">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

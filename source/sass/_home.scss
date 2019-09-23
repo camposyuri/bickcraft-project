@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -33px;
-  height: 23rem;
+  height: 23.75rem;
 }
 
 .section-home {
@@ -26,4 +26,21 @@
       transition: all .6s ease-in-out;
     }
   }
+
+  .title-home {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .span-format {
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  @media(min-width: map-get($grid-breakpoints, md)) {
+    .title-home {
+      font-size: 3rem !important;
+    }
+  }
 }
+
