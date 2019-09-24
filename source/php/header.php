@@ -11,7 +11,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-md fixed-top bg-yellow">
-        <div class="container py-2 py-md-0">
+        <div class="container">
             <a class="navbar-brand" href="<?php echo get_site_url();?>" title="Bikcraft">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/logo.png" class="img-fluid ml-md-5" alt="Bikcraft" title="Bikcraft">
             </a>
