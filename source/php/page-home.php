@@ -18,7 +18,7 @@
 
 <section class="section-home-products py-5">
     <div class="container pt-3">
-        <h1 class="text-center text-uppercase title-home-products">Produtos</h1>
+        <h2 class="text-center text-uppercase title-home-products">Produtos</h2>
         <hr class="hr-col">
         <div class="row">
             <div class="col-md-4 pt-3">
@@ -73,7 +73,7 @@
 
 <section class="section-home-portfolio bg-black py-5">
     <div class="container">
-        <h1 class="text-center text-uppercase title-home-portfolio">Portfólio</h1>
+        <h2 class="text-center text-uppercase title-home-portfolio">Portfólio</h2>
         <hr class="hr-col mb-4">
         <div class="row justify-content-center">
             <div class="col-md-5">
@@ -93,6 +93,10 @@
             <a href="#" class="btn btn-portfolio text-uppercase mt-3">Portfólio</a>
         </div>
     </div>
+</section>
+
+<section>
+
 </section>
 
 <?php get_footer(); ?>
