@@ -26,12 +26,20 @@ html, body {
   background-color: $black;
 }
 
+.bg-white {
+  background-color: $white;
+}
+
 .color-black {
   color: $black;
 }
 
 .color-yellow {
   color: $brightsun;
+}
+
+.color-white {
+  color: $white;
 }
 
 .border-yellow {
@@ -41,6 +49,12 @@ html, body {
 .border-black {
   border-color: $black;
 }
+
+hr {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 
 @import "header";
 

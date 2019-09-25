@@ -18,7 +18,7 @@ header {
     @extend .color-black;
 
     &:hover {
-      color: #FFFFFF;
+      @extend .color-white;
       transition: all .6s ease-in-out;
     }
   }
